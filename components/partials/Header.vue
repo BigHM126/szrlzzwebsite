@@ -1,10 +1,14 @@
 <template>
-  <header class="rl-header container shadow">
+  <header class="rl-header container">
     <!--     <div class="row justify-content-between align-items-center"></div> -->
 
     <b-navbar toggleable="lg" type="light" class="row  justify-content-between">
       <b-navbar-brand href="/" class="col-sm-2 pl-sm-0 w-100 "
-        ><b-img src="/reallink/img/logo-white.png" fluid alt="logo"></b-img
+        ><b-img
+          src="~assets/reallink/images/logo-white.png"
+          fluid
+          alt="logo"
+        ></b-img
       ></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

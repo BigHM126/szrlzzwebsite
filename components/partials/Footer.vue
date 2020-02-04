@@ -85,7 +85,7 @@
             <div class="col-sm-4">
               <div class="widget">
                 <img
-                  src="/reallink/img/logo-white.png"
+                  src="~assets/reallink/images/logo-white.png"
                   alt="logo"
                   style="width: 124px;"
                 />

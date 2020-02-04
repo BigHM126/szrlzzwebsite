@@ -77,7 +77,7 @@ export default {
    ** Build configuration
    */
   router: {
-    base: 'szrlzzwebsite'
+    base: '/szrlzzwebsite/'
   },
   build: {
     transpile: [],
