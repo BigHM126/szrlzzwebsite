@@ -1,3 +1,11 @@
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/szrlzzwebsite/'
+        }
+      }
+    : {}
 export default {
   mode: 'universal',
   /*
@@ -47,6 +55,14 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
+  http: {
+    // proxy: true
+  },
+  bootstrapVue: {
+    bootstrapCSS: true, // Or `css: false`
+    bootstrapVueCSS: true, // Or `bvCSS: false`
+    icons: true // Install the IconsPlugin (in addition to BootStrapVue plugin
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -55,10 +71,17 @@ export default {
   /*
    ** Build configuration
    */
+  router: {
+    ...routerBase
+  },
   build: {
+    transpile: [],
+    /* extraCSS: true, */
+    analyze: true,
     /*
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+  rules: {}
 }

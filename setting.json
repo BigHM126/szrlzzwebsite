@@ -1,0 +1,108 @@
+{
+  "files.autoSave": "onWindowChange",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "explorer.confirmDragAndDrop": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "attrsSorter.order": [
+    "is",
+    "v-for",
+    "v-if",
+    "v-else-if",
+    "v-else",
+    "v-show",
+    "v-cloak",
+    "v-once",
+    "v-pre",
+    "id",
+    "ref",
+    "key",
+    "v-slot",
+    "v-slot.+",
+    "#.*",
+    "slot",
+    "v-model",
+    "v-model.+",
+    "v-bind",
+    "v-bind.+",
+    ":.+",
+    "v-text",
+    "v-text.+",
+    "v-html",
+    "v-html.+",
+    "class",
+    "v-on.+",
+    "@.+",
+    "name",
+    "data-.+",
+    "ng-.+",
+    "src",
+    "for",
+    "type",
+    "href",
+    "values",
+    "title",
+    "alt",
+    "role",
+    "aria-.+",
+    "$unknown$"
+  ],
+  "todohighlight.isEnable": true,
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.vue",
+    "**/*.styl"
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  // Show Transparency Grid
+  "svgviewer.transparencygrid": true,
+  // Open or not open the preview screen automatically
+  // "svgviewer.enableautopreview": true,
+  // How to open the screen (vscode.ViewColumn)
+  "svgviewer.previewcolumn": "Beside",
+  // Color setting for transparency
+  "svgviewer.transparencycolor": "#2BD163",
+  // Show zoom in/out button in preview windows
+  "svgviewer.showzoominout": true
+}

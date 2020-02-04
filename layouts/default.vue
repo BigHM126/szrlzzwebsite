@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <rlHeader></rlHeader>
+  <div class="defaultLayout">
+    <div class=" container-fluid bg-light ">
+      <rlHeader></rlHeader>
+    </div>
     <nuxt />
     <rlFooter></rlFooter>
   </div>
