@@ -188,7 +188,7 @@
 </template>
 <script>
 export default {
-  name: 'NuFooter',
+  name: 'RlFooter',
 
   data() {
     return {
