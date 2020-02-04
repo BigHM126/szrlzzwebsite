@@ -7,20 +7,20 @@
             <div class="col-md-6 mb-5 mb-md-0">
               <div class="card card-lift--hover shadow border-0">
                 <router-link to="/landing" title="Landing Page">
-                  <b-img-lazy
+                  <b-img
                     src="~assets/reallink/images/landing.jpg"
                     class="card-img"
-                  ></b-img-lazy>
+                  ></b-img>
                 </router-link>
               </div>
             </div>
             <div class="col-md-6 mb-5 mb-lg-0">
               <div class="card card-lift--hover shadow border-0">
                 <router-link to="/profile" title="Profile Page">
-                  <b-img-lazy
+                  <b-img
                     src="~assets/reallink/images/profile.jpg"
                     class="card-img"
-                  ></b-img-lazy>
+                  ></b-img>
                 </router-link>
               </div>
             </div>
