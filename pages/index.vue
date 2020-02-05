@@ -14,16 +14,34 @@
             indicators
             background="#ababab"
             img-width="1024"
-            img-height="480"
+            img-height="420"
             style="text-shadow: 1px 1px 2px #333;"
           >
             <!-- Text slides with image -->
-            <b-carousel-slide
+            <!--             <b-carousel-slide
               v-for="(item, index) in bannerCarousel"
               :key="index"
-              :caption="item.caption"
-              :text="item.text"
-              img-src="https://picsum.photos/1024/480/?image=52"
+            >
+              <template v-slot:img>
+                <b-img
+                  :src="'~assets/reallink/images/slide' + index + 1 + '.png'"
+                  class="d-block img-fluid w-100"
+                  width="1024"
+                  height="420"
+                  alt="image slot"
+                ></b-img>
+              </template>
+            </b-carousel-slide> -->
+            <b-carousel-slide
+              img-src="~assets/reallink/images/slide1.png"
+              class="text-left"
+            ></b-carousel-slide>
+            <b-carousel-slide
+              img-src="~assets/reallink/images/slide2.png"
+              class="text-left"
+            ></b-carousel-slide>
+            <b-carousel-slide
+              img-src="~assets/reallink/images/slide3.png"
               class="text-left"
             ></b-carousel-slide>
           </b-carousel>
@@ -369,24 +387,19 @@ export default {
       sliding: null,
       bannerCarousel: [
         {
-          caption: '标题1',
-          text: '文本1',
-          imgSrc: '~/assetsc/reallink/images/slide1'
+          caption: '',
+          text: '',
+          imgSrc: '~assets/reallink/images/slide1.png'
         },
         {
-          caption: '标题2',
-          text: '文本2',
-          imgSrc: '~/assetsc/reallink/images/slide2'
+          caption: '',
+          text: '',
+          imgSrc: '~assets/reallink/images/slide2.png'
         },
         {
-          caption: '标题3',
-          text: '文本3',
-          imgSrc: '~/assetsc/reallink/images/slide3'
-        },
-        {
-          caption: '标题4',
-          text: '文本4',
-          imgSrc: '~/assetsc/reallink/images/slide4'
+          caption: '',
+          text: '',
+          imgSrc: '~assets/reallink/images/slide3.png'
         }
       ]
     }
