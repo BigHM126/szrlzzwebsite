@@ -79,10 +79,11 @@ export default {
   router: {
     base: '/szrlzzwebsite/'
   },
+
   build: {
     transpile: [],
     /* extraCSS: true, */
-    analyze: true,
+    // analyze: true,
     /*
      ** You can extend webpack config here
      */
@@ -104,6 +105,5 @@ export default {
         'b-embed': 'src'
       }
     }
-  },
-  rules: {}
+  }
 }
