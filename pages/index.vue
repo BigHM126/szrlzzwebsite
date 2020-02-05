@@ -70,16 +70,15 @@
         <div class="row">
           <div class="col-md-6">
             <b-card
-              title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
+              title="机械行业解决方案"
+              img-src="~assets/reallink/images/solution01.jpeg"
               img-alt="Image"
               img-top
               tag="article"
               class="mb-2"
             >
               <b-card-text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                重点解决定制化、小批量、多种品、多工序的生产流程化管理。建立完善的计划、产能、质量、跟踪体系。
               </b-card-text>
               <div class="d-flex justify-content-between">
                 <p>
@@ -94,22 +93,21 @@
           </div>
           <div class="col-md-6">
             <b-card
-              title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
+              title="电子行业解决方案"
+              img-src="~assets/reallink/images/solution02.jpeg"
               img-alt="Image"
               img-top
               tag="article"
               class="mb-2"
             >
               <b-card-text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                重点结构复杂、工序多样化等类型产业的组装、包装等问题，构建多层级多部件跟踪追溯体系。
               </b-card-text>
               <div class="d-flex justify-content-between">
                 <p>
                   适用于：
-                  <mark><strong>机加零件</strong></mark
-                  >\<mark><strong>精密设备</strong></mark
+                  <mark><strong>电子组装</strong></mark
+                  >\<mark><strong>电子元件</strong></mark
                   >等细分行业
                 </p>
                 <b-button href="#" variant="primary">点击详情</b-button>
@@ -131,15 +129,115 @@
       </section>
       <section class="container">
         <div class="row">
-          <div v-for="(item, index) in 3" :key="index" class="col-md-4">
+          <div class="col-md-4">
             <b-card
               no-body
-              img-src="https://placekitten.com/380/200"
+              img-src="~assets/reallink/images/mes.jpeg"
               img-alt="Image"
               img-top
             >
               <b-card-body>
                 <b-card-title>MES-制造执行系统</b-card-title>
+                <b-card-text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </b-card-text>
+              </b-card-body>
+
+              <b-list-group flush>
+                <b-list-group-item
+                  ><b-icon
+                    icon="award"
+                    class="rounded-circle bg-danger"
+                    variant="light"
+                  ></b-icon
+                  ><span class="mx-2">实时查询工序进度</span></b-list-group-item
+                >
+                <b-list-group-item
+                  ><b-icon
+                    icon="award"
+                    class="rounded-circle bg-danger"
+                    variant="light"
+                  ></b-icon
+                  ><span class="mx-2">及时了解现场状态</span></b-list-group-item
+                >
+                <b-list-group-item
+                  ><b-icon
+                    icon="award"
+                    class="rounded-circle bg-danger"
+                    variant="light"
+                  ></b-icon
+                  ><span class="mx-2"
+                    >报告和分析异常原因</span
+                  ></b-list-group-item
+                >
+              </b-list-group>
+
+              <b-card-body class="right">
+                <a href="#" class="card-link">了解详情</a>
+                <a href="#" class="card-link">产品文档</a>
+              </b-card-body>
+            </b-card>
+          </div>
+          <div class="col-md-4">
+            <b-card
+              no-body
+              img-src="~assets/reallink/images/wms.jpeg"
+              img-alt="Image"
+              img-top
+            >
+              <b-card-body>
+                <b-card-title>WMS-移动仓储系统</b-card-title>
+                <b-card-text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </b-card-text>
+              </b-card-body>
+
+              <b-list-group flush>
+                <b-list-group-item
+                  ><b-icon
+                    icon="award"
+                    class="rounded-circle bg-danger"
+                    variant="light"
+                  ></b-icon
+                  ><span class="mx-2">实时查询工序进度</span></b-list-group-item
+                >
+                <b-list-group-item
+                  ><b-icon
+                    icon="award"
+                    class="rounded-circle bg-danger"
+                    variant="light"
+                  ></b-icon
+                  ><span class="mx-2">及时了解现场状态</span></b-list-group-item
+                >
+                <b-list-group-item
+                  ><b-icon
+                    icon="award"
+                    class="rounded-circle bg-danger"
+                    variant="light"
+                  ></b-icon
+                  ><span class="mx-2"
+                    >报告和分析异常原因</span
+                  ></b-list-group-item
+                >
+              </b-list-group>
+
+              <b-card-body class="right">
+                <a href="#" class="card-link">了解详情</a>
+                <a href="#" class="card-link">产品文档</a>
+              </b-card-body>
+            </b-card>
+          </div>
+          <div class="col-md-4">
+            <b-card
+              no-body
+              img-src="~assets/reallink/images/qms.jpeg"
+              img-alt="Image"
+              img-top
+            >
+              <b-card-body>
+                <b-card-title>QMS-移动质检系统</b-card-title>
                 <b-card-text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -221,37 +319,7 @@
               </ul>
             </div>
           </div>
-          <div class="row m-3">
-            <b-card
-              img-src="https://placekitten.com/300/300"
-              img-alt="Card image"
-              img-left
-              class="mb-3"
-            >
-              <b-card-text>
-                <footer class="blockquote text-center">
-                  <p class="mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.
-                  </p>
-                  <footer class="blockquote-footer">
-                    Someone famous in
-                    <cite title="Source Title">Source Title</cite>
-                  </footer>
-                </footer>
-              </b-card-text>
-            </b-card>
-
-            <blockquote class="blockquote text-center ">
-              <p class="mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante.
-              </p>
-              <footer class="blockquote-footer">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
-          </div>
+          <div class="row m-3"></div>
         </div>
       </section>
       <section class="jumbotron text-center bg-light">
@@ -269,14 +337,14 @@
           <b-img
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=58"
+            src="~assets/reallink/images/lg-ali.jpg"
             alt="用友网络"
             class="mx-3"
           ></b-img>
           <b-img
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=59"
+            src="~assets/reallink/images/lg-huawei.jpg"
             alt="科瑞技术"
             class="mx-3"
           ></b-img>
@@ -284,95 +352,39 @@
         <h2>钻石级合作伙伴</h2>
         <div class="row-flex m-4 d-flex justify-content-center">
           <b-img
+            v-for="(item, index) in 3"
+            :key="index"
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=58"
+            src="~assets/reallink/images/lg-huawei.jpg"
             alt="用友网络"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
             class="mx-3"
           ></b-img>
         </div>
         <h2>金牌/银牌合作伙伴</h2>
         <div class="row m-4 justify-content-center">
           <b-img
+            v-for="(item, index) in 6"
+            :key="index"
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=58"
+            src="~assets/reallink/images/lg-ali.jpg"
             alt="用友网络"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=58"
-            alt="用友网络"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=58"
-            alt="用友网络"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
-            class="mx-3"
-          ></b-img>
-          <b-img
-            thumbnail
-            fluid
-            src="https://picsum.photos/250/250/?image=59"
-            alt="科瑞技术"
             class="mx-3"
           ></b-img>
         </div>
         <h2>技术合作伙伴</h2>
-        <div class="row-flex m-4 d-flex justify-content-center"></div>
+        <div class="row-flex m-4 d-flex justify-content-center">
+          <b-img
+            v-for="(item, index) in 3"
+            :key="index"
+            thumbnail
+            fluid
+            src="~assets/reallink/images/lg-huawei.jpg"
+            alt="用友网络"
+            class="mx-3"
+          ></b-img>
+        </div>
       </section>
     </div>
   </div>
