@@ -15,13 +15,20 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item
+          <!-- <b-nav-item
             v-for="(item, index) in navLinks"
             :key="index"
             :href="item.path"
             class="h5"
             >{{ item.name }}</b-nav-item
-          >
+          > -->
+
+          <b-nav-item href="/products/" class="h5">在线产品</b-nav-item
+          ><b-nav-item href="/lines/" class="h5">解决方案</b-nav-item
+          ><b-nav-item href="https://szrlzzdocs.netlify.com/" class="h5"
+            >帮助支持</b-nav-item
+          ><b-nav-item href="/blogs/" class="h5">业内新闻</b-nav-item
+          ><b-nav-item href="/partners/" class="h5">生态联盟</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -52,7 +59,7 @@ export default {
       navLinks: [
         { name: '在线产品', icon: '', path: '/products/' },
         { name: '解决方案', icon: '', path: '#' },
-        { name: '帮助支持', icon: '', path: '#' },
+        { name: '帮助支持', icon: '', path: 'https://szrlzzdocs.netlify.com/' },
         { name: '业内新闻', icon: '', path: '#' },
         { name: '生态联盟', icon: '', path: '#' }
       ]
