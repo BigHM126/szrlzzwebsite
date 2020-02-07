@@ -1,7 +1,7 @@
 module.exports = {
   title: '产品文档',
   description: '所有产品及模块相关帮助文档的集合。',
-  base: '/docs/',
+  // base: '/szrlzzdocs/',
   // host: '',
   // port: 8080,
   themeConfig: {
@@ -42,7 +42,7 @@ module.exports = {
     lastUpdated: '最后更新时间', // string | boolean
 
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-    repo: 'bighm126/szrlzzdocs',
+    repo: 'BigHM126/szrlzzdocs.git',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
     repoLabel: '查看源码',

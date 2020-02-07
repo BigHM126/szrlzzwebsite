@@ -5,7 +5,7 @@
 set -e
 
 # 生成静态文件
-npm run docs:build
+yarn docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -21,6 +21,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:big_hm@126.com/szrlzzdocs.git master:gh-pages
+git push -f git@github.com:BigHM126/szrlzzdocs.git master
 
 cd -
