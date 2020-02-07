@@ -9,8 +9,7 @@ yarn-error.log*
 
 
 # docs git another repo
-docs
-deploy.sh
+
 
 # Runtime data
 pids
