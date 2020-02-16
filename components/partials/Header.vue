@@ -23,12 +23,13 @@
             >{{ item.name }}</b-nav-item
           > -->
 
-          <b-nav-item href="/products/" class="h5">在线产品</b-nav-item
-          ><b-nav-item href="/lines/" class="h5">解决方案</b-nav-item
+          <b-nav-item href="/products/" class="h5">在线产品</b-nav-item>
+          <b-nav-item href="/lines/" class="h5">解决方案</b-nav-item
+          ><b-nav-item href="/blogs/" class="h5">业内新闻</b-nav-item
+          ><b-nav-item href="/partners/" class="h5">生态联盟</b-nav-item
           ><b-nav-item href="https://bighm126.github.io/szrlzzdocs/" class="h5"
             >帮助支持</b-nav-item
-          ><b-nav-item href="/blogs/" class="h5">业内新闻</b-nav-item
-          ><b-nav-item href="/partners/" class="h5">生态联盟</b-nav-item>
+          >
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -67,5 +68,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss"></style>

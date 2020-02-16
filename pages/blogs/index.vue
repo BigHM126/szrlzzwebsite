@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <b-jumbotron>
-      <template v-slot:header>业内新闻</template>
+      <template v-slot:header>生态伙伴</template>
 
       <template v-slot:lead>
         This is a simple hero unit, a simple jumbotron-style component for
