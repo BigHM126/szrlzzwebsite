@@ -20,14 +20,62 @@
         <b-button variant="success" href="#">Do Something Else</b-button>
       </b-jumbotron>
     </div>
-    <div>
+
+    <div class="container prod">
+      <div>
+        <p>适用于：细分行业</p>
+        <b-container fluid class="p-4">
+          <b-row>
+            <b-col>
+              <b-img
+                thumbnail
+                fluid
+                src="https://picsum.photos/250/250/?image=54"
+                alt="Image 1"
+              ></b-img>
+            </b-col>
+            <b-col>
+              <b-img
+                thumbnail
+                fluid
+                src="https://picsum.photos/250/250/?image=58"
+                alt="Image 2"
+              ></b-img>
+            </b-col>
+            <b-col>
+              <b-img
+                thumbnail
+                fluid
+                src="https://picsum.photos/250/250/?image=59"
+                alt="Image 3"
+              ></b-img>
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+
       <article>
-        1. 行业特点 2. 订单以多品种小批量为主，存在汽配等领域标准零件大批量生产
-        3. 生产过程存在项目制造/单件制造 4.
-        产品工艺复杂多变，每个产品工艺各不相同，对工艺流程执行监控要求高。 5.
-        部分工序需要外协加工，产能不足时需要外协加工 6.
-        生产设备昂贵，制造成本高。
-        <img src="../media/208669af854a9c882a155a847349ea5c.jpg" alt="" />
+        <section>行业特点</section>
+        <ul>
+          <li>订单以多品种小批量为主，存在汽配等领域标准零件大批量生产</li>
+          <li>生产过程存在项目制造/单件制造</li>
+          <li>
+            产品工艺复杂多变，每个产品工艺各不相同，对工艺流程执行监控要求高
+          </li>
+          <li>部分工序需要外协加工，产能不足时需要外协加工</li>
+          <li>生产设备昂贵，制造成本高</li>
+        </ul>
+
+        <b-img
+          src="~assets/reallink/images/208669af854a9c882a155a847349ea5c.jpg"
+          rounded
+          center
+          fluid
+          my-5
+          alt="Responsive image"
+          style="width:80%"
+        ></b-img>
+
         <ol>
           <li>
             1. 行业现状 2. 订单准时交货率低，订单进度不能及时掌控 3.
@@ -54,22 +102,44 @@
             物料储位条码化管理，精准物料管理WMS通过条码/RF技术实现入库PDA移动扫码生单、扫码防错等，并与ERP业务流程单据实时协同，出入库扫码自动ERP生单，能够有效地对仓库流程和空间利用进行管理，实现最小包装条码管理、批次管理、先进先出管控、快速扫码出入库和扫码盘点，提高仓库物料精细化管理及工作效率。
           </li>
         </ol>
-        <img src="../media/c2c6d4edefcef10e46622532a209334b.jpg" alt="" />
+        <img
+          src="~assets/reallink/images/c2c6d4edefcef10e46622532a209334b.png"
+          alt=""
+        />
         1. 作业计划与生产执行协同，提升产能效率。 >
         APS生产计划排程系统与ERP集成，根据生产订单交期、工艺路线、工序产能、及在制订单产能需求等信息，辅助人工计划排程，并实现排程结果派工和执行数据实时跟踪分析，提升准时交货率、提高产能、降低在制成本。
-        <img src="../media/891b14c1f4d1874b077ec4f241a05945.jpg" alt="" />
+        <img
+          src="~assets/reallink/images/891b14c1f4d1874b077ec4f241a05945.png"
+          alt=""
+        />
         1. 生产执行数据采集 >
         MES生产执行系统，采用最新信息技术和网络技术，实现业务流程协同、与底层自动化设备的PLC系统集成打通，对车间人、机、料、法、环、质等生产要素进行全面管控，实现企业精益制造和数字化管理。
-        <img src="../media/05635c6f850eb73b0b1c6b9cc151641f.jpg" alt="" />
+        <img
+          src="~assets/reallink/images/05635c6f850eb73b0b1c6b9cc151641f.png"
+          alt=""
+        />
         1. 在线检验、任务驱动、规范管理 >
         QMS质检系统，通过与ERP、WMS、MES业务流程协同，待检任务自动推送，移动PAD在线检验，现场查阅操作规范说明、现场查阅规格说明书、图纸文件、现场拍照取证、及录入检验参数，提高检验规范、提高质检效率。
-        <img src="../media/3c5945b4a68459f0aa697a8c80dd9d24.jpg" alt="" />
+        <img
+          src="~assets/reallink/images/3c5945b4a68459f0aa697a8c80dd9d24.png"
+          alt=""
+        />
         1. 数字化生产、可视化管理 >
         从计划任务、备料、检验、产线生产统计、质检统计、生产状态监控、生产进度监控等全方位对生产过程进行实时监控，问题及时处理。
-        <img src="../media/0485899424f1418101f52cfe35f2afd9.jpg" alt="" />
+        <img
+          src="~assets/reallink/images/0485899424f1418101f52cfe35f2afd9.png"
+          alt="Image"
+        />
         1. 方案收益
-        <img src="../media/dec7a4046a32e66e3ddbb6220954b5f1.jpg" alt="" />
+        <img
+          src="~assets/reallink/images/dec7a4046a32e66e3ddbb6220954b5f1.jpg"
+          alt="Image"
+        />
       </article>
     </div>
   </div>
 </template>
+
+<script>
+export default {}
+</script>
